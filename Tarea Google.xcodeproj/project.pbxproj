@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480AB50B1FA8ED2B00278E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480AB50A1FA8ED2B00278E1F /* main.m */; };
+		480AB50E1FA8ED2B00278E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480AB50D1FA8ED2B00278E1F /* AppDelegate.m */; };
+		480AB5111FA8ED2B00278E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480AB5101FA8ED2B00278E1F /* ViewController.m */; };
+		480AB5141FA8ED2B00278E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480AB5121FA8ED2B00278E1F /* Main.storyboard */; };
+		480AB5171FA8ED2B00278E1F /* Tarea_Google.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 480AB5151FA8ED2B00278E1F /* Tarea_Google.xcdatamodeld */; };
+		480AB5191FA8ED2B00278E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480AB5181FA8ED2B00278E1F /* Assets.xcassets */; };
+		480AB51C1FA8ED2B00278E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480AB51A1FA8ED2B00278E1F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480AB5061FA8ED2B00278E1F /* Tarea Google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea Google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480AB50A1FA8ED2B00278E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480AB50C1FA8ED2B00278E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480AB50D1FA8ED2B00278E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480AB50F1FA8ED2B00278E1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480AB5101FA8ED2B00278E1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480AB5131FA8ED2B00278E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480AB5161FA8ED2B00278E1F /* Tarea_Google.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tarea_Google.xcdatamodel; sourceTree = "<group>"; };
+		480AB5181FA8ED2B00278E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480AB51B1FA8ED2B00278E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480AB51D1FA8ED2B00278E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480AB5031FA8ED2B00278E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480AB4FD1FA8ED2B00278E1F = {
+			isa = PBXGroup;
+			children = (
+				480AB5081FA8ED2B00278E1F /* Tarea Google */,
+				480AB5071FA8ED2B00278E1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480AB5071FA8ED2B00278E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480AB5061FA8ED2B00278E1F /* Tarea Google.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480AB5081FA8ED2B00278E1F /* Tarea Google */ = {
+			isa = PBXGroup;
+			children = (
+				480AB50C1FA8ED2B00278E1F /* AppDelegate.h */,
+				480AB50D1FA8ED2B00278E1F /* AppDelegate.m */,
+				480AB50F1FA8ED2B00278E1F /* ViewController.h */,
+				480AB5101FA8ED2B00278E1F /* ViewController.m */,
+				480AB5121FA8ED2B00278E1F /* Main.storyboard */,
+				480AB5181FA8ED2B00278E1F /* Assets.xcassets */,
+				480AB51A1FA8ED2B00278E1F /* LaunchScreen.storyboard */,
+				480AB51D1FA8ED2B00278E1F /* Info.plist */,
+				480AB5151FA8ED2B00278E1F /* Tarea_Google.xcdatamodeld */,
+				480AB5091FA8ED2B00278E1F /* Supporting Files */,
+			);
+			path = "Tarea Google";
+			sourceTree = "<group>";
+		};
+		480AB5091FA8ED2B00278E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480AB50A1FA8ED2B00278E1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480AB5051FA8ED2B00278E1F /* Tarea Google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480AB5201FA8ED2B00278E1F /* Build configuration list for PBXNativeTarget "Tarea Google" */;
+			buildPhases = (
+				480AB5021FA8ED2B00278E1F /* Sources */,
+				480AB5031FA8ED2B00278E1F /* Frameworks */,
+				480AB5041FA8ED2B00278E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tarea Google";
+			productName = "Tarea Google";
+			productReference = 480AB5061FA8ED2B00278E1F /* Tarea Google.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480AB4FE1FA8ED2B00278E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pegasus Control";
+				TargetAttributes = {
+					480AB5051FA8ED2B00278E1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 43L9G44D97;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 480AB5011FA8ED2B00278E1F /* Build configuration list for PBXProject "Tarea Google" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480AB4FD1FA8ED2B00278E1F;
+			productRefGroup = 480AB5071FA8ED2B00278E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480AB5051FA8ED2B00278E1F /* Tarea Google */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480AB5041FA8ED2B00278E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480AB51C1FA8ED2B00278E1F /* LaunchScreen.storyboard in Resources */,
+				480AB5191FA8ED2B00278E1F /* Assets.xcassets in Resources */,
+				480AB5141FA8ED2B00278E1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480AB5021FA8ED2B00278E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480AB5111FA8ED2B00278E1F /* ViewController.m in Sources */,
+				480AB50E1FA8ED2B00278E1F /* AppDelegate.m in Sources */,
+				480AB5171FA8ED2B00278E1F /* Tarea_Google.xcdatamodeld in Sources */,
+				480AB50B1FA8ED2B00278E1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		480AB5121FA8ED2B00278E1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480AB5131FA8ED2B00278E1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480AB51A1FA8ED2B00278E1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480AB51B1FA8ED2B00278E1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480AB51E1FA8ED2B00278E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		480AB51F1FA8ED2B00278E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480AB5211FA8ED2B00278E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = "Tarea Google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.pegasus.Tarea-Google";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480AB5221FA8ED2B00278E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = "Tarea Google/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.pegasus.Tarea-Google";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480AB5011FA8ED2B00278E1F /* Build configuration list for PBXProject "Tarea Google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480AB51E1FA8ED2B00278E1F /* Debug */,
+				480AB51F1FA8ED2B00278E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480AB5201FA8ED2B00278E1F /* Build configuration list for PBXNativeTarget "Tarea Google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480AB5211FA8ED2B00278E1F /* Debug */,
+				480AB5221FA8ED2B00278E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		480AB5151FA8ED2B00278E1F /* Tarea_Google.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				480AB5161FA8ED2B00278E1F /* Tarea_Google.xcdatamodel */,
+			);
+			currentVersion = 480AB5161FA8ED2B00278E1F /* Tarea_Google.xcdatamodel */;
+			path = Tarea_Google.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 480AB4FE1FA8ED2B00278E1F /* Project object */;
+}
